@@ -18,7 +18,7 @@ do
 		if [[ ! -f "$datafile" ]]
 		then
 			echo 获取CF节点IP
-			curl --retry 3 https://update.udpfile.com -o data.txt -#
+			curl --retry 3 https://raw.githubusercontent.com/Abrakian/better-cloudflare-ip/master/Untitled -o data.txt -#
 		fi
 		domain=$(cat data.txt | grep domain= | cut -f 2- -d'=')
 		file=$(cat data.txt | grep file= | cut -f 2- -d'=')
