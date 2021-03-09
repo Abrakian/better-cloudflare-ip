@@ -1,3 +1,5 @@
+publicip=52.91.15.245
+colo=IAD
 domain=speed.haoren.ml
 file=cache.jpg
 url=https://github.com/badafans/better-cloudflare-ip
@@ -636,12 +638,3 @@ database=20210226
 198.41.221.
 198.41.222.
 198.41.223.
-104.19.10.
-104.19.104.
-104.19.101.
-104.19.105.
-104.28.117.
-104.19.171.
-104.27.39.
-104.19.15.
-104.27.123.
